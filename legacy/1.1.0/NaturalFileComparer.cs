@@ -6,11 +6,6 @@ internal sealed class NaturalFileComparer : IComparer<string>
 {
     public int Compare(string? x, string? y)
     {
-        return CompareText(Path.GetFileName(x), Path.GetFileName(y));
-    }
-
-    public int CompareText(string? x, string? y)
-    {
         if (ReferenceEquals(x, y))
         {
             return 0;
@@ -26,7 +21,7 @@ internal sealed class NaturalFileComparer : IComparer<string>
             return 1;
         }
 
-        return CompareNatural(x, y);
+        return CompareNatural(Path.GetFileName(x), Path.GetFileName(y));
     }
 
     private static int CompareNatural(string x, string y)

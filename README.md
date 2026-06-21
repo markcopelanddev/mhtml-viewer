@@ -21,6 +21,8 @@ This app is built for the boring but real use case: you saved a lot of pages and
 
 - Opens folders containing `.mhtml`, `.mht`, and `.pdf` files.
 - Sorts files naturally, so `2` comes before `10`.
+- Lets you change sorting by name, date modified, type, size, date created, title, authors, categories, or tags.
+- Supports ascending and descending order without reselecting the folder.
 - Lets you select a specific file and start reading from that point.
 - Moves backward and forward like page navigation in a book.
 - Adds a bottom slider so you can jump through the full folder quickly.
@@ -30,18 +32,22 @@ This app is built for the boring but real use case: you saved a lot of pages and
 
 ## Current Version
 
-`1.1.0` is the main version in:
+`1.2.0` is the main version in:
 
 ```text
 src/MHTML Viewer
 ```
 
-New in `1.1.0`:
+New in `1.2.0`:
 
-- `Select File` button for jumping directly to a page in its folder.
-- Bottom slider for fast navigation through every supported file.
+- Sort mode dropdown with Name, Date modified, Type, Size, Date created, Authors, Categories, Tags, and Title.
+- Ascending/Descending dropdown for reversing the current sort.
+- Preserves the currently open file when changing sort mode, then updates the slider position to match the new order.
+- Lightweight metadata sorting for MHTML/PDF title-style fields when available, with filename fallback.
 
 ## Legacy Version
+
+`legacy/1.1.0` contains the file-jump and slider version before sort controls.
 
 `legacy/1.0.0` contains the original version before the file-jump and slider update.
 
@@ -84,4 +90,3 @@ Then run:
 ## Privacy
 
 The app works locally. It does not collect analytics, make network calls for your files, or send page contents anywhere.
-
