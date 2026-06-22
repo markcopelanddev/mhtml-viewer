@@ -1,6 +1,6 @@
-# MHTML Viewer
+# MHTML & PDF Viewer
 
-MHTML Viewer is a small Windows app for reading saved web pages like a book.
+MHTML Viewer is a small Windows app for reading saved web pages and PDFs like a book.
 
 If you have a folder full of `.mhtml` or `.mht` captures from a website, course, manual, wiki, or online book, normal browser workflows get clumsy fast. You can open one page, but moving through hundreds of saved pages in order feels nothing like reading the original site.
 
@@ -10,7 +10,7 @@ MHTML Viewer turns that folder into a simple reader: choose the folder, start at
 
 ## Why This Exists
 
-Saved web pages are useful, but reading them later is usually awkward:
+Saved web pages (and sometimes PDFs) are useful, but reading them later is usually awkward:
 
 - File Explorer sorts numbered pages badly unless names are padded.
 - Browsers open each page as a separate one-off file.
