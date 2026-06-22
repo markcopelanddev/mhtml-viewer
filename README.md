@@ -6,7 +6,7 @@ If you have a folder full of `.mhtml` or `.mht` captures from a website, course,
 
 MHTML Viewer turns that folder into a simple reader: choose the folder, start at any file, then flip backward and forward through the saved pages.
 
-## Download HERE: https://github.com/markcopelanddev/mhtml-viewer/releases/tag/v1.2.0
+### Download HERE: https://github.com/markcopelanddev/mhtml-viewer/releases/tag/v1.2.0
 
 ## Why This Exists
 
